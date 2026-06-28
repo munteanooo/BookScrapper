@@ -9,7 +9,7 @@ export const DEFAULT_HEADERS: Record<string, string> = {
 export async function fetchWithTimeout(
   url: string,
   options: RequestInit = {},
-  timeoutMs = 12000,
+  timeoutMs = 8000,
 ): Promise<Response> {
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), timeoutMs)

@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   title: 'CartePret — Compară prețuri la cărți din Moldova',
   description:
     'Caută o carte după titlu și vezi instant prețurile, stocul și linkurile directe de pe librăriile din Chișinău: Librarius, Cărturești, Litera și Biblion.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

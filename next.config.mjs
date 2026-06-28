@@ -1,10 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      { hostname: "*.librarius.md" },
+      { hostname: "*.carturesti.md" },
+      { hostname: "*.litera.md" },
+      { hostname: "*.biblion.md" },
+    ],
   },
 }
 

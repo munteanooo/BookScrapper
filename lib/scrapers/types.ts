@@ -37,6 +37,7 @@ export interface AggregatedSearchResponse {
   query: string
   stores: StoreSearchResult[]
   totalResults: number
+  warnings?: string[]
 }
 
 export const STORE_META: Record<StoreId, { name: string; origin: string }> = {
